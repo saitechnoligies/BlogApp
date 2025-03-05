@@ -1,0 +1,29 @@
+###
+
+GET  http://localhost:3000/user-api/test
+
+###create user
+POST http://localhost:3000/user-api/user
+Content-Type: application/json
+
+{
+  "role": "user",
+  "firstName": "user1",
+  "lastName": "user1",
+  "email": "user1@mail.com",
+  "profileImageUrl": "user1 image",
+  "isActive": true
+}
+
+###create author
+POST http://localhost:3000/author-api/author
+Content-Type: application/json
+
+{
+  "role": "user",
+  "firstName": "user1",
+  "lastName": "user1",
+  "email": "user1@mail.com",
+  "profileImageUrl": "user1 image",
+  "isActive": true
+}
